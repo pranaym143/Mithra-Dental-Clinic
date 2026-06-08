@@ -1,0 +1,8 @@
+{
+  "name": "Mithra Dental Clinic",
+  "description": "Premium Family Dental Clinic in Bhuvanagiri, Telangana. Offering world-class treatments including Implants, Root Canals, Smile Designing, and Cosmetic Dentistry on par with global standards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
