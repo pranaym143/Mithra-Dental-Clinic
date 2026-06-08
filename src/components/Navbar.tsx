@@ -26,6 +26,7 @@ export default function Navbar({ onScrollTo, activeSection }: NavbarProps) {
     { label: "Home", id: "home" },
     { label: "About", id: "about" },
     { label: "Treatments", id: "treatments" },
+    { label: "Before & After", id: "results" },
     { label: "Clinic & Tech", id: "tech" },
     { label: "Smile Advisor", id: "advisor" },
     { label: "Doctors", id: "doctors" },

@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import ToothExhibit from "./components/ToothExhibit";
 import About from "./components/About";
 import Treatments from "./components/Treatments";
+import BeforeAfter from "./components/BeforeAfter";
 import TechShowcase from "./components/TechShowcase";
 import SmileAdvisor from "./components/SmileAdvisor";
 import DoctorShowcase from "./components/DoctorShowcase";
@@ -37,7 +38,7 @@ export default function App() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPos = window.scrollY + 120;
-      const sections = ["home", "about", "treatments", "tech", "advisor", "doctors", "booking"];
+      const sections = ["home", "about", "treatments", "results", "tech", "advisor", "doctors", "booking"];
 
       for (const sect of sections) {
         const el = document.getElementById(sect);
@@ -105,6 +106,9 @@ export default function App() {
         onScrollTo={handleScrollTo}
         onSelectTreatment={(name) => setSelectedTreatment(name)}
       />
+
+      {/* 5B. Interactive Before & After comparison slider section */}
+      <BeforeAfter />
 
       {/* 6. High-Tech Precision active room (Screenshot 3 cyber scanner room replica) */}
       <TechShowcase />
